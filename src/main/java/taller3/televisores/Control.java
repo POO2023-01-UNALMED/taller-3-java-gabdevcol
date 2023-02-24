@@ -4,11 +4,11 @@ public class Control {
 
 	private TV tv;
 	
-	public void turnOn(boolean estado) {
-		this.tv.turnOn(estado);	
+	public void turnOn() {
+		this.tv.turnOn();	
 	}
-	public void turnOff(boolean estado) {
-		this.tv.turnOff(estado);
+	public void turnOff() {
+		this.tv.turnOff();
 	}
 	public void canalUp() {
 		this.tv.canalUp();

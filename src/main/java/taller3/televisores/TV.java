@@ -47,11 +47,11 @@ public class TV {
 	public int numTV() {
 		return this.numTV;
 	}
-	public void turnOn(boolean estado) {
-		this.estado = estado;	
+	public void turnOn() {
+		return;	
 	}
-	public void turnOff(boolean estado) {
-		this.estado = estado;
+	public void turnOff() {
+		return;
 	}
 	public boolean getEstado() {
 		return this.estado;
