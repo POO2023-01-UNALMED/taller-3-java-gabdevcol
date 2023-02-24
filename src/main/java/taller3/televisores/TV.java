@@ -8,11 +8,12 @@ public class TV {
 	private boolean estado;
 	private int volumen = 1;
 	private Control control;
-	private static int numTV;
+	private static int numTV = 0;
 	
 	public TV(Marca marca, boolean estado) {
 		this.marca = marca;
-		this.estado = estado;		
+		this.estado = estado;
+		this.numTV++;
 	}
 	public void setMarca(Marca marca) {
 		this.marca = marca;		
@@ -27,7 +28,7 @@ public class TV {
 		return this.control;
 	}
 	public void setPrecio(int precio) {
-		this.precio = precio;		
+		this.precio += precio;		
 	 }
 	public int getPrecio() {
 		return this.precio;
