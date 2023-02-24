@@ -1,7 +1,7 @@
 
 public class Marca {
 
-	private String nombre;
+	public String nombre;
 	public Marca(String nombre) {
 		this.nombre = nombre;
 	}
