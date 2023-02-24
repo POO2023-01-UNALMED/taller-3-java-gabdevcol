@@ -44,11 +44,11 @@ public class TV {
 	public int getCanal() {
 		return this.canal;
 	}
-	public static void setNumTV(int numTV) {
-		this.numTV += numTV;
+	public static void setNumTV(int num) {
+		numTV += num;
 	}
 	public static int getNumTV() {
-		return this.numTV;
+		return numTV;
 	}
 	public void turnOn() {
 		return;	
