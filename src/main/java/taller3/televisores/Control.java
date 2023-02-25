@@ -23,7 +23,8 @@ public class Control {
 		this.tv.canalDown();
 	}
 	public void setCanal(int canal) {
-		this.tv.setCanal(canal);
+		if (this.tv.getEstado()) 
+			this.tv.setCanal(canal);
 	}
 	public void enlazar(TV televisor) {
 		this.tv = televisor;
@@ -35,5 +36,4 @@ public class Control {
 	public TV getTv() {
 		return this.tv;
 	}
-	
 }
