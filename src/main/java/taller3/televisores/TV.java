@@ -61,7 +61,7 @@ public class TV {
 		return this.estado;
 	}
 	public void canalUp() {
-		if (this.getCanal() < 120 && this.getEstado() ) {
+		if (this.getCanal() < 120 && this.getEstado()) {
 			this.canal++;
 		}
 	}
